@@ -18,7 +18,6 @@ section '.dconst' readable
         error_str db 'ERROR: CANNOT MALLOC', 10, 0
         exit_str db 'Press any key to exit.', 10, 0
 
-
 section '.data' readable writable
 
         length_a dd ?
