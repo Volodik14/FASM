@@ -70,8 +70,8 @@ input_a:
         cmp eax, 1
         jne input_err
 
-        cmp [length_a], 0
-        jle input_err
+        ;cmp [length_a], 0
+        ;jle input_err
 
         ;4 bits * length_a = recuired amount of memory for malloc
         mov ebx, [length_a]
